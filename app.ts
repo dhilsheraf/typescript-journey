@@ -48,12 +48,12 @@ interface Dog extends Animal {
     bark(): void;
 }
 
-const myDog: Dog = {
-    name:"Tomy",
-    bark: ()=>{
-       return console.log("bow bow bowww")
-    }
-}
+// const myDog: Dog = {
+//     name:"Tomy",
+//     bark: ()=>{
+//        return console.log("bow bow bowww")
+//     }
+// }
 
 // doing it on the type
 type Bird = {
